@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-black: #000000;
+  --color-eerie-black: #1b1b1b;
+  --color-squid-ink: #012133;
+  --color-marian-blue: #344f80;
+  --color-sunrise-orange: #e67451;
+  --color-fresh-squeezed: #fead01;
+  --color-gray-olive: #a9a491;
+  --color-alabaster: #efe9e4;
+  --color-light-gray: #ebebeb;
+  --color-white: #ffffff;
+
+  --font-family-sans: "Open Sans", sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-family-sans);
+  }
+
+  body {
+    background-color: var(--color-white);
+    color: var(--color-eerie-black);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    background-color: var(--color-sunrise-orange);
+    color: var(--color-white);
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+    transform: scale(1);
+  }
+
+  .btn-primary:hover {
+    background-color: #ea580c;
+    transform: scale(1.05);
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    border: 2px solid var(--color-sunrise-orange);
+    color: var(--color-sunrise-orange);
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-sunrise-orange);
+    color: var(--color-white);
+  }
+
+  .section-padding {
+    padding: 4rem 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .section-padding {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .section-padding {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .container-custom {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
