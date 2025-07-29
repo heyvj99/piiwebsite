@@ -46,7 +46,7 @@ const InvitedSpeakers = () => {
 
   return (
     <section className="section-padding bg-white">
-      <div className="container-custom">
+      <div className="container-custom px-14">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -55,7 +55,7 @@ const InvitedSpeakers = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl md:text-5xl font-semibold text-gray-900 mb-6">
             Invited Speakers
           </h2>
           <p className="text-xl text-gray-700 max-w-4xl mx-auto">

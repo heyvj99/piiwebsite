@@ -65,8 +65,8 @@ const HeroSection = () => {
 
             <p className="text-lg md:text-xl text-alabaster mb-8 leading-relaxed opacity-90">
               A private community for leaders shaping the next trillion-dollar
-              industries—through AI, decentralization, and exponential
-              technologies.
+              businesses and industries—through AI, decentralization, and
+              exponential technologies.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -80,7 +80,7 @@ const HeroSection = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-slate-800/80 backdrop-blur-sm border border-slate-600 text-white px-8 py-4 rounded-md font-semibold hover:bg-slate-700/80 transition-all duration-300"
+                className="bg-eerie-black backdrop-blur-sm border border-gray-700 text-white px-8 py-4 rounded-md font-semibold hover:bg-slate-700/80 transition-all duration-300"
               >
                 Explore the Forum
               </motion.button>

@@ -91,8 +91,8 @@ const SocialProofSection = () => {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
 
   return (
-    <section className="section-padding bg-slate-900">
-      <div className="container-custom flex flex-col gap-8">
+    <section className="section-padding bg-eerie-black">
+      <div className="container-custom flex flex-col gap-8 px-14">
         {/* Trusted Partners Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -188,7 +188,7 @@ const SocialProofSection = () => {
         </motion.div> */}
 
         {/* Stats */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
@@ -207,7 +207,7 @@ const SocialProofSection = () => {
             <div className="text-4xl font-bold text-slate-300 mb-2">95%</div>
             <div className="text-white">Member Satisfaction</div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Testimonials */}
         <motion.div
@@ -217,7 +217,7 @@ const SocialProofSection = () => {
           viewport={{ once: true }}
           className="max-w-4xl mx-auto"
         >
-          <div className="bg-white rounded-lg shadow-xl p-12 relative">
+          <div className="bg-white/90 rounded-lg shadow-xl p-12 relative">
             {/* Large Quote Mark */}
             <div className="absolute top-8 left-8 text-8xl font-bold text-black opacity-20">
               "

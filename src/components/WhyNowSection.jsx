@@ -23,9 +23,9 @@ const WhyNowSection = () => {
     },
     {
       icon: Brain,
-      title: "Breakthroughs in health & education",
+      title: "New economic and organizational models",
       description:
-        "Advancements in health, longevity, and educational technologies",
+        "Rethinking how value is created, shared, and governed in a post-industrial world",
     },
   ];
 

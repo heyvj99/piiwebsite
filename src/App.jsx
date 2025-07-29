@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import HeroSection from "./components/HeroSection";
 import WhyNowSection from "./components/WhyNowSection";
+import StatisticsSection from "./components/StatisticsSection";
 import WhoItsForSection from "./components/WhoItsForSection";
 import ForumSection from "./components/ForumSection";
 import HowDifferentSection from "./components/HowDifferentSection";
@@ -15,6 +16,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <HeroSection />
       <WhyNowSection />
+      <StatisticsSection />
       <WhoItsForSection />
       <ForumSection />
       <HowDifferentSection />

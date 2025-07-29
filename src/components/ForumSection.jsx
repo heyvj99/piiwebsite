@@ -16,7 +16,8 @@ const ForumSection = () => {
     {
       title: "Summit",
       icon: Target,
-      description: "Annual event in Silicon Valley with 50% discount",
+      description:
+        "Attend our annual Silicon Valley Summit at privileged member pricing",
       details: "Next: Nov 5–6, 2025 — Focus: Autonomous Organizations",
       color: "#FF6B6B",
       illustration: Target,
@@ -24,16 +25,17 @@ const ForumSection = () => {
     {
       title: "Post-Industrial Academy",
       icon: GraduationCap,
-      description: "Free course on organizational history and futures",
-      details: "Discounts on future executive education",
+      description:
+        "Foundational course on the evolution of organizations and the future of leadership",
+      details: "Unlock early access for upcoming executive programs",
       color: "#FF6B6B",
       illustration: GraduationCap,
     },
     {
-      title: "Quarterly Executive Sessions",
+      title: "Future-Facing Leadership Sessions",
       icon: Users,
       description:
-        "Evening events with industry leaders (SRI, NVIDIA, Cisco, etc.)",
+        "Quarterly events with industry leaders (SRI, NVIDIA, Cisco, etc.)",
       details: "Live stream & recordings available",
       color: "#FF6B6B",
       illustration: Users,
@@ -55,9 +57,10 @@ const ForumSection = () => {
       illustration: MessageCircle,
     },
     {
-      title: "Digital Library",
+      title: "Knowledge Vault",
       icon: BookOpen,
-      description: "Access to all archives since 2020",
+      description:
+        "Access every publication, session, and resource in our archive since 2020",
       details: "Research papers, case studies, and insights",
       color: "#FF6B6B",
       illustration: BookOpen,
@@ -65,7 +68,7 @@ const ForumSection = () => {
   ];
 
   return (
-    <section className="section-padding bg-slate-900">
+    <section className="section-padding bg-eerie-black">
       <div className="container-custom grid grid-cols-5 gap-8 px-14">
         {/* Header Section */}
         <motion.div
@@ -76,7 +79,7 @@ const ForumSection = () => {
           className="text-left mb-16 col-span-2"
         >
           <h2 className="text-[3rem] font-semibold text-white uppercase leading-tight tracking-{-0.015} mb-6">
-            Membership Includes Access To Benefits
+            Leverage Exclusive Access With Our Membership
           </h2>
           <p className="text-xl text-white max-w-3xl mx-auto">
             Comprehensive resources and experiences designed for
@@ -85,31 +88,31 @@ const ForumSection = () => {
         </motion.div>
 
         {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 col-span-3 bg-alabaster rounded-sm p-1">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 col-span-3 bg-white border border-gray-200 rounded-xl shadow-xl">
           {/* Left Column - Tab Navigation */}
-          <div className="lg:col-span-1">
-            <div className="p-1">
-              <div className="space-y-2">
+          <div className="lg:col-span-2">
+            <div className="p-6">
+              <div className="space-y-1">
                 {benefits.map((benefit, index) => (
                   <motion.button
                     key={index}
                     onClick={() => setActiveTab(index)}
-                    className={`w-full flex items-start space-x-4 px-2 py-4 rounded-sm transition-all duration-300 ${
+                    className={`w-full flex items-start space-x-4 px-4 py-4 rounded-lg transition-all duration-300 ${
                       activeTab === index
-                        ? "bg-slate-50 border-l-4 border-[#FF6B6B] text-[#FF6B6B]"
-                        : "text-gray-600 hover:bg-gray-50"
+                        ? "bg-gray-50 border-l-4 border-sunrise-orange text-sunrise-orange shadow-sm"
+                        : "text-gray-600 hover:bg-gray-50 hover:text-gray-800"
                     }`}
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
+                    whileHover={{ scale: 1.01 }}
+                    whileTap={{ scale: 0.99 }}
                   >
                     <div className="text-2xl">
                       {(() => {
                         const IconComponent = benefit.icon;
-                        return <IconComponent className="w-6 h-6" />;
+                        return <IconComponent className="w-5 h-5" />;
                       })()}
                     </div>
                     <div className="text-left">
-                      <span className="font-semibold text-sm block">
+                      <span className="font-medium text-sm block">
                         {benefit.title}
                       </span>
                     </div>
@@ -120,44 +123,44 @@ const ForumSection = () => {
           </div>
 
           {/* Right Column - Tab Content */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-3">
             <motion.div
               key={activeTab}
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
-              className="bg-alabaster rounded-sm p-8 h-full"
+              className="bg-white rounded-xl p-8 h-full"
             >
-              <div className="flex flex-col gap-4 h-full">
+              <div className="flex flex-col gap-6 h-full">
                 {/* top: Illustration */}
                 <div className="flex justify-center lg:justify-start">
-                  <div className="text-[#FF6B6B] opacity-80">
+                  <div className="text-sunrise-orange opacity-90">
                     {(() => {
                       const IconComponent = benefits[activeTab].illustration;
-                      return <IconComponent className="w-24 h-24" />;
+                      return <IconComponent className="w-20 h-20" />;
                     })()}
                   </div>
                 </div>
 
                 {/* bottom: Content */}
-                <div className="space-y-4">
-                  <h3 className="text-3xl font-bold text-gray-700">
+                <div className="space-y-5">
+                  <h3 className="text-2xl font-bold text-gray-900">
                     {benefits[activeTab].title}
                   </h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <p className="text-base text-gray-700 leading-relaxed">
                     {benefits[activeTab].description}
                   </p>
-                  <div className="bg-gray-100 p-4 rounded-sm">
-                    <p className="text-lg text-gray-800 font-medium">
+                  <div className="bg-gray-50 border border-gray-200 p-5 rounded-lg">
+                    <p className="text-sm text-gray-800 font-medium">
                       {benefits[activeTab].details}
                     </p>
                   </div>
                   <motion.button
-                    className="px-8 py-3 border border-slate-800 text-slate-800 font-semibold rounded-sm shadow-md hover:shadow-md transition-all duration-300"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
+                    className="px-6 py-3 bg-sunrise-orange text-erie-black font-medium rounded-lg shadow-sm hover:bg-gray-800 hover:text-white transition-all duration-300"
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
                   >
-                    DETAILS
+                    Learn More
                   </motion.button>
                 </div>
               </div>

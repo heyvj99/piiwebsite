@@ -46,16 +46,17 @@ const WhoItsForSection = () => {
     <section className="section-padding">
       <div className="container-custom px-14">
         {/* Top Row - Title and Description */}
-        <div className="grid grid-cols-2 gap-12 mb-16">
+        <div className="grid grid-cols-5 gap-12 mb-16">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="col-span-1"
+            className="col-span-2"
           >
             <h2 className="text-[3rem] font-semibold text-gray-700 uppercase leading-tight tracking-{-0.015} mb-6">
-              Are You a Builder or a Transformer?
+              Post-Industrialists are the builders and transformers of the
+              future.
             </h2>
           </motion.div>
 
@@ -64,12 +65,14 @@ const WhoItsForSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            className="col-span-1"
+            className="col-span-3"
           >
             <p className="text-xl text-gray-600 leading-relaxed">
-              Discover which path aligns with your vision and join a community
-              of leaders who are actively shaping the future of work and
-              technology.
+              They are visionary leaders who challenge outdated systems and
+              pioneer new ways of thinking, building, and operating. Unbound by
+              traditional industry lines, Post-Industrialists reimagine how the
+              world works—driven by purpose, enabled by technology, and grounded
+              in first principles.
             </p>
           </motion.div>
         </div>
@@ -102,7 +105,7 @@ const WhoItsForSection = () => {
               </div>
 
               {/* White Background Content Section */}
-              <div className="p-8 flex flex-col justify-between">
+              <div className="p-8 flex flex-col justify-between gap-8">
                 {/* Top content - Headline */}
                 <div className="space-y-4">
                   <h3 className="text-2xl font-medium text-eerie-black leading-tight">
