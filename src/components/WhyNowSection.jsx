@@ -42,7 +42,7 @@ const WhyNowSection = () => {
             className="pt-1 col-span-2"
           >
             <h3 className="text-[3rem] font-semibold text-gray-700 uppercase leading-tight tracking-{-0.015}">
-              Why now is the time to act?
+              Now Is the Time for Bold Moves
             </h3>
           </motion.div>
 

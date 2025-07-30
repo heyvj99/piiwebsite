@@ -5,34 +5,45 @@ import amicable from "../assets/images/bg/Amicable Professional Interaction.png"
 const HowDifferentSection = () => {
   const differences = [
     {
-      title: "Action-Oriented Sessions",
-      description: "Every session is built to generate outcomes, not just talk",
+      title: "Beyond digital buzzwords.",
+      description:
+        "We frame today's change as a civilizational shift—not just tech hype.",
       icon: Zap,
       color: "sunrise-orange",
     },
     {
-      title: "Selective Community",
-      description: "Members chosen for mindset and momentum",
+      title: "Anthropological lens.",
+      description:
+        "We decode the deep structural forces reshaping society and business.",
       icon: Target,
       color: "marian-blue",
     },
     {
-      title: "Cross-Boundary Learning",
-      description: "Strategy, product, people, and technology intersect",
+      title: "Post-Lean mindset.",
+      description:
+        "We embrace micro-orgs, AI-native teams, and rapid, networked value creation.",
       icon: Link,
       color: "fresh-squeezed",
     },
     {
-      title: "Compounding Knowledge",
-      description: "Patterns, frameworks, and insights accumulate",
+      title: "Higher-order firm building.",
+      description:
+        "We help organizations move from operating to industry-shaping.",
       icon: TrendingUp,
       color: "gray-olive",
     },
     {
-      title: "Influence-Building",
-      description: "Opportunity to co-author tools and publish insights",
+      title: "Cross-disciplinary thinking.",
+      description:
+        "We connect strategy, innovation, policy, and cultural change.",
       icon: Star,
       color: "squid-ink",
+    },
+    {
+      title: "Networked future focus.",
+      description: "We prepare leaders for ecosystems, not hierarchies.",
+      icon: Zap,
+      color: "sunrise-orange",
     },
   ];
 
@@ -61,11 +72,11 @@ const HowDifferentSection = () => {
             className="lg:col-span-2 flex flex-col justify-start"
           >
             <h2 className="text-[3rem] font-semibold text-white uppercase leading-tight tracking-{-0.015} mb-6">
-              What Makes the Forum Different?
+              Our distinctive edge
             </h2>
             <p className="text-xl text-white leading-relaxed">
-              We're not just another networking group. Here's what sets us
-              apart.
+              We're not just another networking group. Here's what sets us apart
+              from the rest.
             </p>
           </motion.div>
 
