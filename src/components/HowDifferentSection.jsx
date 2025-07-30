@@ -5,42 +5,42 @@ import amicable from "../assets/images/bg/Amicable Professional Interaction.png"
 const HowDifferentSection = () => {
   const differences = [
     {
-      title: "Beyond digital buzzwords.",
+      title: "Beyond digital buzzwords",
       description:
         "We frame today's change as a civilizational shift—not just tech hype.",
       icon: Zap,
       color: "sunrise-orange",
     },
     {
-      title: "Anthropological lens.",
+      title: "Anthropological lens",
       description:
         "We decode the deep structural forces reshaping society and business.",
       icon: Target,
       color: "marian-blue",
     },
     {
-      title: "Post-Lean mindset.",
+      title: "Post-Lean mindset",
       description:
         "We embrace micro-orgs, AI-native teams, and rapid, networked value creation.",
       icon: Link,
       color: "fresh-squeezed",
     },
     {
-      title: "Higher-order firm building.",
+      title: "Higher-order firm building",
       description:
         "We help organizations move from operating to industry-shaping.",
       icon: TrendingUp,
       color: "gray-olive",
     },
     {
-      title: "Cross-disciplinary thinking.",
+      title: "Cross-disciplinary thinking",
       description:
         "We connect strategy, innovation, policy, and cultural change.",
       icon: Star,
       color: "squid-ink",
     },
     {
-      title: "Networked future focus.",
+      title: "Networked future focus",
       description: "We prepare leaders for ecosystems, not hierarchies.",
       icon: Zap,
       color: "sunrise-orange",
