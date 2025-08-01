@@ -1,31 +1,37 @@
 import { motion } from "framer-motion";
-import { Bot, Zap, Globe, Brain } from "lucide-react";
+import { Brain, Network, Building2, Factory, Users } from "lucide-react";
 
 const WhyNowSection = () => {
   const features = [
     {
-      icon: Bot,
-      title: "AI-first productivity and creativity",
-      description:
-        "Transform how we work and create with cutting-edge AI technologies",
-    },
-    {
-      icon: Zap,
-      title: "Autonomous agents transforming workflows",
-      description:
-        "Streamline operations with intelligent automation and autonomous systems",
-    },
-    {
-      icon: Globe,
-      title: "Decentralized infrastructure",
-      description:
-        "Revolutionary changes in energy, manufacturing, and agriculture",
-    },
-    {
       icon: Brain,
-      title: "New economic and organizational models",
+      title: "The Age of Low-Cost Intelligence",
       description:
-        "Rethinking how value is created, shared, and governed in a post-industrial world",
+        "AI is accelerating science, strategy, and creativity — making advanced capabilities universally accessible and exponentially faster.",
+    },
+    {
+      icon: Network,
+      title: "Decentralized by Design",
+      description:
+        "From supply chains to energy grids, decentralized systems powered by AI agents are reshaping how industries function and interconnect.",
+    },
+    {
+      icon: Building2,
+      title: "Autonomous Organizations",
+      description:
+        "Future firms will be flatter, faster, and AI-native — with intelligent agents managing strategy, governance, and operations alongside humans.",
+    },
+    {
+      icon: Factory,
+      title: "Industries Reimagined",
+      description:
+        "Legacy sectors are being restructured, while entirely new industries — AI-native manufacturing, synthetic biology, space, climate tech — are emerging.",
+    },
+    {
+      icon: Users,
+      title: "The Rise of Post-Industrial Builders",
+      description:
+        "We need adaptive, independent thinkers — fluent in technology, bold in vision, and collaborative by nature — to lead and build what's next.",
     },
   ];
 
@@ -41,8 +47,8 @@ const WhyNowSection = () => {
             viewport={{ once: true }}
             className="pt-1 col-span-2"
           >
-            <h3 className="text-[3rem] font-semibold text-gray-700 uppercase leading-tight tracking-{-0.015}">
-              Now Is the Time for Bold Moves
+            <h3 className="text-[3rem] font-semibold text-gray-700 leading-tight tracking-{-0.015}">
+              Don’t Wait for the Future — Build It
             </h3>
           </motion.div>
 
@@ -59,8 +65,8 @@ const WhyNowSection = () => {
               The industrial era reshaped how we worked and lived. Now, a
               post-industrial future is emerging, driven by AI and
               decentralization. Yet outdated models and legacy systems are
-              slowing us down. Visionary leaders are needed to rethink and
-              rebuild from first principles.
+              slowing us down. Visionary leaders are needed, those willing to
+              start from first principles and shape what comes next.
             </div>
 
             {/* Feature Boxes Grid */}

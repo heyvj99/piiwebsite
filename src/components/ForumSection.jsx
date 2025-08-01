@@ -23,15 +23,6 @@ const ForumSection = () => {
       illustration: Target,
     },
     {
-      title: "Post-Industrial Academy",
-      icon: GraduationCap,
-      description:
-        "Foundational course on the evolution of organizations and the future of leadership",
-      details: "Unlock early access for upcoming executive programs",
-      color: "#FF6B6B",
-      illustration: GraduationCap,
-    },
-    {
       title: "Future-Facing Leadership Sessions",
       icon: Users,
       description:
@@ -39,14 +30,6 @@ const ForumSection = () => {
       details: "Live stream & recordings available",
       color: "#FF6B6B",
       illustration: Users,
-    },
-    {
-      title: "Workshops & Working Groups",
-      icon: Wrench,
-      description: "In-person & remote co-creation sessions",
-      details: "Topics: AI Agents, Org Dev, Leadership",
-      color: "#FF6B6B",
-      illustration: Wrench,
     },
     {
       title: "Roundtables",
@@ -57,6 +40,15 @@ const ForumSection = () => {
       illustration: MessageCircle,
     },
     {
+      title: "Post-Industrial Academy",
+      icon: GraduationCap,
+      description:
+        "Foundational course on the evolution of organizations and the future of leadership",
+      details: "Unlock early access for upcoming executive programs",
+      color: "#FF6B6B",
+      illustration: GraduationCap,
+    },
+    {
       title: "Knowledge Vault",
       icon: BookOpen,
       description:
@@ -65,11 +57,19 @@ const ForumSection = () => {
       color: "#FF6B6B",
       illustration: BookOpen,
     },
+    {
+      title: "Workshops & Working Groups",
+      icon: Wrench,
+      description: "In-person & remote co-creation sessions",
+      details: "Topics: AI Agents, Org Dev, Leadership",
+      color: "#FF6B6B",
+      illustration: Wrench,
+    },
   ];
 
   return (
     <section className="section-padding bg-eerie-black">
-      <div className="container-custom grid grid-cols-5 gap-8 px-14">
+      <div className="container-custom grid grid-cols-5 gap-8 px-14 py-14">
         {/* Header Section */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -78,13 +78,11 @@ const ForumSection = () => {
           viewport={{ once: true }}
           className="text-left mb-16 col-span-2"
         >
-          <h2 className="text-[3rem] font-semibold text-white uppercase leading-tight tracking-{-0.015} mb-6">
-            Leverage Exclusive Access With Our Membership
+          <h2 className="text-[3rem] font-semibold text-white leading-tight tracking-{-0.015} mb-6">
+            CONNECT. <br />
+            LEARN. <br />
+            IMPLEMENT.
           </h2>
-          <p className="text-xl text-white max-w-3xl mx-auto">
-            Comprehensive resources and experiences designed for
-            forward-thinking leaders
-          </p>
         </motion.div>
 
         {/* Main Content Grid */}

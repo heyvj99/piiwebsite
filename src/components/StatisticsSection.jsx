@@ -75,12 +75,11 @@ const StatisticsSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-[2rem] font-semibold text-gray-700 leading-tight tracking-[-0.015] mb-6">
+          <h2 className="text-[3rem] font-semibold text-gray-700 leading-tight tracking-{-0.015}">
             The pressure is on to change faster
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Key statistics showing why organizations must accelerate their AI
-            transformation
+            Research shows a growing urgency to act now
           </p>
         </motion.div>
 

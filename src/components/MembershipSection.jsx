@@ -1,16 +1,19 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import professionalHandshake from "../assets/images/bg/pexels-sevenstormphotography-443383.jpg";
+import MembershipModal from "./MembershipModal";
 
 const MembershipSection = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    organization: "",
     linkedinUrl: "",
     title: "",
     lookingFor: "",
     contribute: "",
   });
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -25,6 +28,9 @@ const MembershipSection = () => {
     // Handle form submission logic here
     console.log("Application submitted:", formData);
   };
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
 
   console.log("Background image URL:", professionalHandshake);
 
@@ -46,14 +52,38 @@ const MembershipSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-[3rem] font-semibold text-white uppercase leading-tight tracking-{-0.015} mb-6">
+          <h2 className="text-[3rem] font-semibold text-white leading-tight tracking-{-0.015} mb-6">
             Apply for Membership
           </h2>
-          <p className="text-xl text-white max-w-3xl mx-auto">
+          <p className="text-xl text-white max-w-3xl mx-auto mb-8">
             Join our exclusive community of industry leaders and innovators.
             Complete the application below to be considered for membership.
           </p>
+          <motion.button
+            onClick={openModal}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="inline-flex items-center px-8 py-3 bg-sunrise-orange text-erie-black font-semibold rounded-sm hover:bg-orange-400 transition-all duration-300 shadow-lg"
+          >
+            Know More
+            <svg
+              className="w-5 h-5 ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </motion.button>
         </motion.div>
+
+        {/* Membership Modal */}
+        <MembershipModal isOpen={isModalOpen} onClose={closeModal} />
 
         {/* Application Form */}
         <motion.div
@@ -119,6 +149,26 @@ const MembershipSection = () => {
                   onChange={handleInputChange}
                   required
                   placeholder="https://linkedin.com/in/yourprofile"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-sunrise-orange focus:border-transparent transition-all duration-200 text-white"
+                />
+              </div>
+
+              {/* Organization/Company */}
+              <div>
+                <label
+                  htmlFor="organization"
+                  className="block text-sm font-medium text-gray-300 mb-2"
+                >
+                  Organization/Company Name *
+                </label>
+                <input
+                  type="text"
+                  id="organization"
+                  name="organization"
+                  value={formData.organization}
+                  onChange={handleInputChange}
+                  required
+                  placeholder="e.g., Tech Corp, Startup Inc"
                   className="w-full px-4 py-3 border border-gray-300 rounded-sm focus:ring-2 focus:ring-sunrise-orange focus:border-transparent transition-all duration-200 text-white"
                 />
               </div>
@@ -189,7 +239,7 @@ const MembershipSection = () => {
                   type="submit"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full py-4 px-6 rounded-sm font-semibold transition-all duration-300 bg-sunrise-orange text-erie-black hover:bg-gray-800 flex items-center justify-center gap-2"
+                  className="w-full py-4 px-6 rounded-sm font-semibold transition-all duration-300 bg-sunrise-orange text-erie-black hover:bg-gray-800 hover:text-white flex items-center justify-center gap-2"
                 >
                   Submit Application
                   <svg

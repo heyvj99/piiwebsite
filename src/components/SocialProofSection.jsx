@@ -101,7 +101,7 @@ const SocialProofSection = () => {
           viewport={{ once: true }}
           className="text-center mt-20"
         >
-          <h3 className="text-[3rem] font-semibold text-gray-200 uppercase leading-tight tracking-{-0.015} mb-4">
+          <h3 className="text-[3rem] font-semibold text-gray-200 leading-tight tracking-{-0.015} mb-4">
             Participating Organizations
           </h3>
           <p className="text-lg text-white opacity-80 mb-12 max-w-3xl mx-auto">
@@ -170,44 +170,6 @@ const SocialProofSection = () => {
             </div>
           </div>
         </motion.div>
-
-        {/* <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Trusted by Leaders from:
-          </h2>
-          <p className="text-xl text-white max-w-3xl mx-auto">
-            Join a network of executives and innovators from leading
-            organizations
-          </p>
-        </motion.div> */}
-
-        {/* Stats */}
-        {/* <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          viewport={{ once: true }}
-          className="my-16 grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-b border-slate-700 pt-8 pb-8"
-        >
-          <div className="text-center">
-            <div className="text-4xl font-bold text-slate-300 mb-2">500+</div>
-            <div className="text-white">Active Members</div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl font-bold text-slate-300 mb-2">50+</div>
-            <div className="text-white">Fortune 500 Companies</div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl font-bold text-slate-300 mb-2">95%</div>
-            <div className="text-white">Member Satisfaction</div>
-          </div>
-        </motion.div> */}
 
         {/* Testimonials */}
         <motion.div

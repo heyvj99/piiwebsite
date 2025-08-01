@@ -1,48 +1,49 @@
 import { motion } from "framer-motion";
-import { Zap, Target, Link, TrendingUp, Star } from "lucide-react";
+import { Users, Globe, Link, Lightbulb, Sparkles, Award } from "lucide-react";
 import amicable from "../assets/images/bg/Amicable Professional Interaction.png";
 
 const HowDifferentSection = () => {
   const differences = [
     {
-      title: "Beyond digital buzzwords",
+      title: "Real Relationships, No Pitching",
       description:
-        "We frame today's change as a civilizational shift—not just tech hype.",
-      icon: Zap,
+        "Genuine connections with peers and experts—focused on insight, not selling.",
+      icon: Link,
       color: "sunrise-orange",
     },
     {
-      title: "Anthropological lens",
+      title: "Private Space for Brave Ideas",
       description:
-        "We decode the deep structural forces reshaping society and business.",
-      icon: Target,
+        "A discreet, press-free environment to explore bold, future-defining strategies.",
+      icon: Lightbulb,
       color: "marian-blue",
     },
     {
-      title: "Post-Lean mindset",
+      title: "First Look at What's Next",
       description:
-        "We embrace micro-orgs, AI-native teams, and rapid, networked value creation.",
-      icon: Link,
+        "Early access to emerging tech and breakthrough management thinking.",
+      icon: Sparkles,
       color: "fresh-squeezed",
     },
     {
-      title: "Higher-order firm building",
+      title: "Diverse Minds, Shared Vision",
       description:
-        "We help organizations move from operating to industry-shaping.",
-      icon: TrendingUp,
+        "Cross-disciplinary conversations that fuel innovation across industries.",
+      icon: Users,
       color: "gray-olive",
     },
     {
-      title: "Cross-disciplinary thinking",
+      title: "Growing Leaders for Tomorrow",
       description:
-        "We connect strategy, innovation, policy, and cultural change.",
-      icon: Star,
+        "Development focused on leading transformation and shaping the future.",
+      icon: Award,
       color: "squid-ink",
     },
     {
-      title: "Networked future focus",
-      description: "We prepare leaders for ecosystems, not hierarchies.",
-      icon: Zap,
+      title: "Purpose Beyond the Day-to-Day",
+      description:
+        "Big-picture dialogue and support from others building a better world.",
+      icon: Globe,
       color: "sunrise-orange",
     },
   ];
@@ -71,13 +72,9 @@ const HowDifferentSection = () => {
             viewport={{ once: true }}
             className="lg:col-span-2 flex flex-col justify-start"
           >
-            <h2 className="text-[3rem] font-semibold text-white uppercase leading-tight tracking-{-0.015} mb-6">
-              Our distinctive edge
+            <h2 className="text-[3rem] font-semibold text-white leading-tight tracking-{-0.015} mb-6">
+              The Forum gives you an edge
             </h2>
-            <p className="text-xl text-white leading-relaxed">
-              We're not just another networking group. Here's what sets us apart
-              from the rest.
-            </p>
           </motion.div>
 
           {/* Remaining 5 Cells - Difference Cards in 2x3 Grid */}
