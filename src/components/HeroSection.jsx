@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import futuristicBg from "../assets/images/bg/Futuristic Data Display.png";
+import futuristicDataBg from "../assets/images/bg/Futuristic Data Display.png";
 
 const HeroSection = () => {
   const [currentKeyword, setCurrentKeyword] = useState(0);
@@ -24,10 +24,10 @@ const HeroSection = () => {
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${futuristicBg})` }}
+        style={{ backgroundImage: `url(${futuristicDataBg})` }}
       >
         {/* Overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/80 via-slate-900/60 to-slate-900/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/60 via-slate-900/80 to-slate-900/60"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/30"></div>
       </div>
 
@@ -51,7 +51,7 @@ const HeroSection = () => {
 
             <p className="w-full max-w-[600px] text-lg md:text-xl text-alabaster mb-8 leading-relaxed opacity-90">
               A private community for leaders leveraging AI and decentralization
-              to build and transfer trillion dollar industries of the future.
+              to build and transform trillion dollar industries of the future.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
