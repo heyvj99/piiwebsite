@@ -79,9 +79,9 @@ const ForumSection = () => {
           className="text-left mb-16 col-span-2"
         >
           <h2 className="text-[3rem] font-semibold text-white leading-tight tracking-{-0.015} mb-6">
-            CONNECT. <br />
-            LEARN. <br />
-            IMPLEMENT.
+            Connect. <br />
+            Learn. <br />
+            Implement.
           </h2>
         </motion.div>
 
