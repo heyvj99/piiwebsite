@@ -20,7 +20,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-slate-900 via-blue-900 to-teal-800 overflow-hidden">
+    <section className="section-padding relative min-h-screen flex items-start justify-start bg-gradient-to-br from-slate-900 via-blue-900 to-teal-800 overflow-hidden">
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -31,26 +31,27 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/30"></div>
       </div>
 
-      <div className="container-custom relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen py-20 px-14">
-          {/* Left Column - Content */}
+      <div className="container-custom relative z-10 mx-0">
+        <div className="flex items-start justify-start min-h-screen py-20 px-14">
+          {/* Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-white"
+            className="text-white w-full"
           >
             <h1 className="text-4xl md:text-6xl font-semibold mb-6 leading-tight">
               <span className="text-alabaster">
-                The Bold. The Visionaries. The architects of what's next.
+                The Bold. <br /> The Visionaries. <br /> The Architects of
+                what's next.
               </span>
               <br />
               {/* <span className="text-white">Forum</span> */}
             </h1>
 
-            <p className="text-lg md:text-xl text-alabaster mb-8 leading-relaxed opacity-90">
+            <p className="w-full max-w-[600px] text-lg md:text-xl text-alabaster mb-8 leading-relaxed opacity-90">
               A private community for leaders leveraging AI and decentralization
-              build the trillion dollar industries of the future.
+              to build and transfer trillion dollar industries of the future.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

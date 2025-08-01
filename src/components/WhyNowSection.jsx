@@ -4,10 +4,17 @@ import { Brain, Network, Building2, Factory, Users } from "lucide-react";
 const WhyNowSection = () => {
   const features = [
     {
-      icon: Brain,
-      title: "The Age of Low-Cost Intelligence",
+      icon: Users,
+      title: "The Rise of Post-Industrial Builders",
       description:
-        "AI is accelerating science, strategy, and creativity — making advanced capabilities universally accessible and exponentially faster.",
+        "We need adaptive, independent thinkers — fluent in technology, bold in vision, and collaborative by nature — to lead and build what's next.",
+    },
+
+    {
+      icon: Building2,
+      title: "Autonomous Organizations",
+      description:
+        "Future firms will be flatter, faster, and AI-native — with intelligent agents managing strategy, governance, and operations alongside humans.",
     },
     {
       icon: Network,
@@ -16,22 +23,17 @@ const WhyNowSection = () => {
         "From supply chains to energy grids, decentralized systems powered by AI agents are reshaping how industries function and interconnect.",
     },
     {
-      icon: Building2,
-      title: "Autonomous Organizations",
-      description:
-        "Future firms will be flatter, faster, and AI-native — with intelligent agents managing strategy, governance, and operations alongside humans.",
-    },
-    {
       icon: Factory,
       title: "Industries Reimagined",
       description:
         "Legacy sectors are being restructured, while entirely new industries — AI-native manufacturing, synthetic biology, space, climate tech — are emerging.",
     },
+
     {
-      icon: Users,
-      title: "The Rise of Post-Industrial Builders",
+      icon: Brain,
+      title: "The Age of Low-Cost Intelligence",
       description:
-        "We need adaptive, independent thinkers — fluent in technology, bold in vision, and collaborative by nature — to lead and build what's next.",
+        "AI is accelerating science, strategy, and creativity — making advanced capabilities universally accessible and exponentially faster.",
     },
   ];
 
@@ -48,7 +50,7 @@ const WhyNowSection = () => {
             className="pt-1 col-span-2"
           >
             <h3 className="text-[3rem] font-semibold text-gray-700 leading-tight tracking-{-0.015}">
-              Don’t Wait for the Future — Build It
+              Don’t wait for the future — build it
             </h3>
           </motion.div>
 

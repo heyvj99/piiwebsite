@@ -58,7 +58,7 @@ const WhoItsForSection = () => {
             viewport={{ once: true }}
             className="col-span-3"
           >
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-2xl md:text-3xl font-medium text-gray-800">
               They are visionary leaders who challenge outdated systems and
               pioneer new ways of thinking, building, and operating. Unbound by
               traditional industry lines, Post-Industrialists reimagine how the
