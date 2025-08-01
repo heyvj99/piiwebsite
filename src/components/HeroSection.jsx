@@ -49,9 +49,10 @@ const HeroSection = () => {
               {/* <span className="text-white">Forum</span> */}
             </h1>
 
-            <p className="w-full max-w-[600px] text-lg md:text-xl text-alabaster mb-8 leading-relaxed opacity-90">
-              A private community for leaders leveraging AI and decentralization
-              to build and transform trillion dollar industries of the future.
+            <p className="w-full max-w-[650px] text-lg md:text-xl text-alabaster mb-8 leading-relaxed opacity-90">
+              A private community for leaders harnessing AI and decentralization
+              to shape trillion-dollar industries, pioneer and transform
+              organizations of the future.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

@@ -37,9 +37,8 @@ const Footer = () => {
                 Post-Industrial Forum
               </h3>
               <p className="text-alabaster mb-6 leading-relaxed opacity-90">
-                A private community for leaders shaping the next trillion-dollar
-                industries—through AI, decentralization, and exponential
-                technologies.
+                A private community for leaders shaping industries and
+                organizations of tomorrow.
               </p>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => {
