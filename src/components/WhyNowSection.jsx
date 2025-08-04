@@ -5,9 +5,9 @@ const WhyNowSection = () => {
   const features = [
     {
       icon: Users,
-      title: "The Rise of Post-Industrial Builders",
+      title: "An Explosive Growth of Artificial Intelligence",
       description:
-        "We need adaptive, independent thinkers — fluent in technology, bold in vision, and collaborative by nature — to lead and build what's next.",
+        "AI is accelerating science, strategy, and creativity — making advanced capabilities universally accessible and exponentially faster.",
     },
 
     {
@@ -26,14 +26,7 @@ const WhyNowSection = () => {
       icon: Factory,
       title: "Industries Reimagined",
       description:
-        "Legacy sectors are being restructured, while entirely new industries — AI-native manufacturing, synthetic biology, space, climate tech — are emerging.",
-    },
-
-    {
-      icon: Brain,
-      title: "The Age of Low-Cost Intelligence",
-      description:
-        "AI is accelerating science, strategy, and creativity — making advanced capabilities universally accessible and exponentially faster.",
+        "Legacy sectors are being restructured, while entirely new industries — AI-native manufacturing, synthetic biology, space, climate tech — are rapidly emerging.",
     },
   ];
 
@@ -50,7 +43,7 @@ const WhyNowSection = () => {
             className="pt-1 col-span-2"
           >
             <h3 className="text-[3rem] font-semibold text-gray-700 leading-tight tracking-{-0.015}">
-              Don’t wait for the future — build it
+              The future is unfolding — <br /> lead it
             </h3>
           </motion.div>
 
@@ -63,12 +56,11 @@ const WhyNowSection = () => {
             className="space-y-12 col-span-3"
           >
             {/* Main Description */}
-            <div className="text-2xl md:text-3xl font-medium text-gray-800 ">
-              The industrial era reshaped how we worked and lived. Now, a
-              post-industrial future is emerging, driven by AI and
-              decentralization. Yet outdated models and legacy systems are
-              slowing us down. Visionary leaders are needed, those willing to
-              start from first principles and shape what comes next.
+            <div className="text-2xl md:text-3xl font-normal text-gray-800 ">
+              A post-industrial civilization is emerging, driven by AI,
+              decentralization, and exponential technologies. Visionary leaders
+              are needed, those willing to start from first principles and shape
+              what comes next.
             </div>
 
             {/* Feature Boxes Grid */}

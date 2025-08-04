@@ -17,8 +17,8 @@ const ForumSection = () => {
       title: "Summit",
       icon: Target,
       description:
-        "Attend our annual Silicon Valley Summit at privileged member pricing",
-      details: "Next: Nov 5–6, 2025 — Focus: Autonomous Organizations",
+        "Attend our annual Post-Industrial Summit in Silicon Valley at privileged member pricing",
+      details: "Next: Nov 5–6, 2025 — Focus: Autonomous Organizations.",
       color: "#FF6B6B",
       illustration: Target,
     },

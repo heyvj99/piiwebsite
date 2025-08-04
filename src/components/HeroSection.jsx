@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import futuristicDataBg from "../assets/images/bg/Futuristic Data Display.png";
+import stringLightsBg from "../assets/images/bg/string_ligths.jpg";
 
 const HeroSection = () => {
   const [currentKeyword, setCurrentKeyword] = useState(0);
@@ -24,10 +24,10 @@ const HeroSection = () => {
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${futuristicDataBg})` }}
+        style={{ backgroundImage: `url(${stringLightsBg})` }}
       >
         {/* Overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/60 via-slate-900/80 to-slate-900/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/30 via-slate-900/50 to-slate-900/60"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/30"></div>
       </div>
 
@@ -42,17 +42,16 @@ const HeroSection = () => {
           >
             <h1 className="text-4xl md:text-6xl font-semibold mb-6 leading-tight">
               <span className="text-alabaster">
-                The Bold. <br /> The Visionaries. <br /> The Architects of
-                what's next.
+                FOR VISIONARY LEADERS <br />
+                BUILDING THE FUTURE
               </span>
               <br />
               {/* <span className="text-white">Forum</span> */}
             </h1>
 
             <p className="w-full max-w-[650px] text-lg md:text-xl text-alabaster mb-8 leading-relaxed opacity-90">
-              A private community for leaders harnessing AI and decentralization
-              to shape trillion-dollar industries, pioneer and transform
-              organizations of the future.
+              A private community for leaders leveraging AI and decentralization
+              to build and transform trillion dollar industries.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -68,7 +67,7 @@ const HeroSection = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-eerie-black backdrop-blur-sm border border-gray-700 text-white px-8 py-4 rounded-md font-semibold hover:bg-slate-700/80 transition-all duration-300"
               >
-                Explore the Forum
+                Explore
               </motion.button>
             </div>
           </motion.div>

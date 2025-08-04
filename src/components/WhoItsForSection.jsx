@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import personaImage1 from "../assets/images/persona/pexels-fauxels-3184405.jpg";
-import personaImage2 from "../assets/images/persona/pexels-kampus-8428066.jpg";
+import personaImage1 from "../assets/images/persona/Startup_collaboration.jpg";
+import personaImage2 from "../assets/images/persona/big_tech_collaboration.jpg";
 
 const WhoItsForSection = () => {
   const sections = [
     {
       type: "Builder",
-      headline: "Build AI-first ventures",
+      headline: "Building AI-first Ventures",
       description:
         "Visionary leaders who launch and scale ventures fundamentally built around AI technologies. These leaders prioritize innovation, agility, and bold strategies to drive transformative impact in rapidly evolving markets.",
       background: "bg-purple-100",
@@ -20,7 +20,7 @@ const WhoItsForSection = () => {
     },
     {
       type: "Transformer",
-      headline: "Transform Legacy Organizations",
+      headline: "Transforming Legacy Organizations",
       description:
         "Ambitious, forward-thinking executives in large enterprises who leverage AI and innovative business thinking to drive rapid transformation. They seek to unlock new growth from existing industries while building the industries of the future.",
       background: "bg-green-100",
@@ -47,7 +47,7 @@ const WhoItsForSection = () => {
             className="col-span-2"
           >
             <h2 className="text-[3rem] font-semibold text-gray-700 leading-tight tracking-{-0.015} mb-6">
-              The future will be built by post-industrialists.
+              The future will be built by Post-Industrialists.
             </h2>
           </motion.div>
 
@@ -58,12 +58,16 @@ const WhoItsForSection = () => {
             viewport={{ once: true }}
             className="col-span-3"
           >
-            <p className="text-2xl md:text-3xl font-medium text-gray-800">
-              They are visionary leaders who challenge outdated systems and
-              pioneer new ways of thinking, building, and operating. Unbound by
-              traditional industry lines, Post-Industrialists reimagine how the
-              world works—driven by purpose, enabled by technology, and grounded
-              in first principles.
+            <p className="text-2xl md:text-3xl font-normal text-gray-800">
+              Bold in vision and collaborative in nature, Post-Industrialists{" "}
+              <span className=" text-sunrise-orange">
+                combine AI and exponential technologies with new management
+                thinking
+              </span>{" "}
+              to pioneer new ways of building and operating. They{" "}
+              <span className="text-sunrise-orange">
+                imagine the future then build it from first principles.
+              </span>
             </p>
           </motion.div>
         </div>

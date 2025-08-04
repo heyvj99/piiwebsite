@@ -1,49 +1,49 @@
 import { motion } from "framer-motion";
-import { Users, Globe, Link, Lightbulb, Sparkles, Award } from "lucide-react";
+import { Users, Target, Link, Lightbulb, Sparkles, Award } from "lucide-react";
 import amicable from "../assets/images/bg/Amicable Professional Interaction.png";
 
 const HowDifferentSection = () => {
   const differences = [
     {
-      title: "Real Relationships, No Pitching",
+      title: "Authentic Relationships",
       description:
-        "Genuine connections with peers and experts—focused on insight, not selling.",
+        "Genuine connections with peers and invited industry experts. Focus on insights and taking action.",
       icon: Link,
       color: "sunrise-orange",
     },
     {
-      title: "Private Space for Brave Ideas",
+      title: "Private Space for Bold Ideas",
       description:
-        "A discreet, press-free environment to explore bold, future-defining strategies.",
+        "A discreet environment to explore future-defining strategies.",
       icon: Lightbulb,
       color: "marian-blue",
     },
     {
       title: "First Look at What's Next",
       description:
-        "Early access to emerging tech and breakthrough management thinking.",
+        "Early access to emerging technologies and future management thinking.",
       icon: Sparkles,
       color: "fresh-squeezed",
     },
     {
-      title: "Diverse Minds, Shared Vision",
+      title: "Trusted Peer Learning",
       description:
         "Cross-disciplinary conversations that fuel innovation across industries.",
       icon: Users,
       color: "gray-olive",
     },
     {
-      title: "Growing Leaders for Tomorrow",
+      title: "Become a Post-Industrialist",
       description:
-        "Development focused on leading transformation and shaping the future.",
+        "Leadership development focused on unique strategies and tools for developing the organizations and industries of the future. ",
       icon: Award,
       color: "squid-ink",
     },
     {
-      title: "Purpose Beyond the Day-to-Day",
+      title: "Long-Range Purpose",
       description:
-        "Big-picture dialogue and support from others building a better world.",
-      icon: Globe,
+        "Big-picture dialogue and support from others building a new civilization.",
+      icon: Target,
       color: "sunrise-orange",
     },
   ];
