@@ -62,13 +62,13 @@ const HeroSection = () => {
               >
                 Apply for Membership
               </motion.button>
-              <motion.button
+              {/* <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-eerie-black backdrop-blur-sm border border-gray-700 text-white px-8 py-4 rounded-md font-semibold hover:bg-slate-700/80 transition-all duration-300"
               >
                 Explore
-              </motion.button>
+              </motion.button> */}
             </div>
           </motion.div>
         </div>
