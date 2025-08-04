@@ -59,8 +59,8 @@ const WhyNowSection = () => {
             <div className="text-2xl md:text-3xl font-normal text-gray-800 ">
               A post-industrial civilization is emerging, driven by AI,
               decentralization, and exponential technologies. Visionary leaders
-              are needed, those willing to start from first principles and shape
-              what comes next.
+              willing to start from first principles are needed to shape what
+              comes next.
             </div>
 
             {/* Feature Boxes Grid */}

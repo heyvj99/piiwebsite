@@ -20,7 +20,7 @@ const WhoItsForSection = () => {
     },
     {
       type: "Transformer",
-      headline: "Transforming Legacy Organizations",
+      headline: "Transforming Organizations of Today",
       description:
         "Ambitious, forward-thinking executives in large enterprises who leverage AI and innovative business thinking to drive rapid transformation. They seek to unlock new growth from existing industries while building the industries of the future.",
       background: "bg-green-100",

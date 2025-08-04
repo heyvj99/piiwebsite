@@ -76,7 +76,7 @@ const StatisticsSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-[3rem] font-semibold text-gray-700 leading-tight tracking-{-0.015}">
-            Transformation Is inevitable
+            Transformation is inevitable
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto pt-1.5">
             Research shows a growing urgency to act now

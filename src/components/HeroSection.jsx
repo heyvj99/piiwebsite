@@ -42,7 +42,7 @@ const HeroSection = () => {
           >
             <h1 className="text-4xl md:text-6xl font-semibold mb-6 leading-tight">
               <span className="text-alabaster">
-                FOR VISIONARY LEADERS <br />
+                THE FORUM: FOR VISIONARY LEADERS <br />
                 BUILDING THE FUTURE
               </span>
               <br />
