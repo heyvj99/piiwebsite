@@ -42,8 +42,9 @@ const HeroSection = () => {
           >
             <h1 className="text-4xl md:text-6xl font-semibold mb-6 leading-tight">
               <span className="text-alabaster">
-                THE FORUM: FOR VISIONARY LEADERS <br />
-                BUILDING THE FUTURE
+                THE POST-INDUSTRIAL FORUM: <br />
+                FOR VISIONARY LEADERS <br />
+                BUILDING THE FUTURE.
               </span>
               <br />
               {/* <span className="text-white">Forum</span> */}
@@ -51,7 +52,7 @@ const HeroSection = () => {
 
             <p className="w-full max-w-[650px] text-lg md:text-xl text-alabaster mb-8 leading-relaxed opacity-90">
               A private community for leaders leveraging AI and decentralization
-              to build and transform trillion dollar industries.
+              to build and transform trillion-dollar industries.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

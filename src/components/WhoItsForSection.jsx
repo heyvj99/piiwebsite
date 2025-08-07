@@ -6,9 +6,9 @@ const WhoItsForSection = () => {
   const sections = [
     {
       type: "Builder",
-      headline: "Building AI-first Ventures",
+      headline: "Building New Ventures",
       description:
-        "Visionary leaders who launch and scale ventures fundamentally built around AI technologies. These leaders prioritize innovation, agility, and bold strategies to drive transformative impact in rapidly evolving markets.",
+        "Post-Industrialists see ventures are AI-first and transformative from the start. Some will spawn entirely new industries.",
       background: "bg-purple-100",
       backgroundImage: personaImage1,
       person: {
@@ -20,9 +20,9 @@ const WhoItsForSection = () => {
     },
     {
       type: "Transformer",
-      headline: "Transforming Organizations of Today",
+      headline: "Transforming Market Leaders",
       description:
-        "Ambitious, forward-thinking executives in large enterprises who leverage AI and innovative business thinking to drive rapid transformation. They seek to unlock new growth from existing industries while building the industries of the future.",
+        "Post-Industrialists see AI Transformation as the beginning, beyond which lies the platform for all future growth.",
       background: "bg-green-100",
       backgroundImage: personaImage2,
       person: {
@@ -59,15 +59,8 @@ const WhoItsForSection = () => {
             className="col-span-3"
           >
             <p className="text-2xl md:text-3xl font-normal text-gray-800">
-              Bold in vision and collaborative in nature, Post-Industrialists{" "}
-              <span className=" text-sunrise-orange">
-                combine AI and exponential technologies with new management
-                thinking
-              </span>{" "}
-              to pioneer new ways of building and operating. They{" "}
-              <span className="text-sunrise-orange">
-                imagine the future then build it from first principles.
-              </span>
+              Bold in vision, Post-Industrialists combine AI and exponential
+              technologies with new management thinking to create breakthroughs.
             </p>
           </motion.div>
         </div>

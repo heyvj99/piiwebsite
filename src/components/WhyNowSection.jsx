@@ -5,28 +5,34 @@ const WhyNowSection = () => {
   const features = [
     {
       icon: Users,
-      title: "An Explosive Growth of Artificial Intelligence",
+      title: "The AI Explosion",
       description:
-        "AI is accelerating science, strategy, and creativity — making advanced capabilities universally accessible and exponentially faster.",
+        "Exponential progress of Al is accelerating science, technology, and creativity. Advanced Al capabilities are now universally available.",
     },
 
     {
       icon: Building2,
       title: "Autonomous Organizations",
       description:
-        "Future firms will be flatter, faster, and AI-native — with intelligent agents managing strategy, governance, and operations alongside humans.",
+        "Firms are flatting, evolving faster and becoming Al-native. They may be assembled just-in-time and last seconds, or persist for decades. Al Agents will manage strategy, governance, R&D, and operations, alongside humans where necessary.",
     },
     {
       icon: Network,
-      title: "Decentralized by Design",
+      title: "Rapid Decentralization",
       description:
-        "From supply chains to energy grids, decentralized systems powered by AI agents are reshaping how industries function and interconnect.",
+        "Ubiquitous high-speed connectivity and ever-more powerful computing is pushing intelligence, assets, manufacturing, and intelligence to the edge. Firms and supply chains are being reshaped.",
     },
     {
       icon: Factory,
       title: "Industries Reimagined",
       description:
-        "Legacy sectors are being restructured, while entirely new industries — AI-native manufacturing, synthetic biology, space, climate tech — are rapidly emerging.",
+        "Legacy sectors are being restructured, and new industries are rapidly emerging. Barriers between sectors and industries are dissolving, and Al agents will manage supply chains.",
+    },
+    {
+      icon: Factory,
+      title: "Human Fulfilment",
+      description:
+        "Extended lifespans, material abundance, and universal access to personalized education will combine with our mastery of matter to liberate human creativity and potential at unprecedented scale.",
     },
   ];
 
@@ -43,7 +49,7 @@ const WhyNowSection = () => {
             className="pt-1 col-span-2"
           >
             <h3 className="text-[3rem] font-semibold text-gray-700 leading-tight tracking-{-0.015}">
-              The future is unfolding — <br /> lead it
+              A new civilization is emerging
             </h3>
           </motion.div>
 
@@ -57,10 +63,9 @@ const WhyNowSection = () => {
           >
             {/* Main Description */}
             <div className="text-2xl md:text-3xl font-normal text-gray-800 ">
-              A post-industrial civilization is emerging, driven by AI,
-              decentralization, and exponential technologies. Visionary leaders
-              willing to start from first principles are needed to shape what
-              comes next.
+              A post-industrial civilization is emerging, driven by Al,
+              decentralization, and exponential technologies. We need visionary
+              leaders to shape what comes next:
             </div>
 
             {/* Feature Boxes Grid */}
